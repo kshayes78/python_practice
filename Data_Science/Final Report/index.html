@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Final Report</title>
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+ <div class="wrapper">
+  <div class="container">
+    <h1>THE COLOR OF TECH</h1>
+  <h3 class="subtitle">An Analysis of Underrepresentation and the Wage Gap for BIPOC Employees within Tech Spaces</h3>
+</div>
+<div class="group">
+    <h3>Team 47 DS4A Empowerment</h3>
+    <h3>Edwin Brown | Araselis Calderon | Tai Chou-Kudu | Sharon Eady | Kimberly Hayes | Willa Igbayo</h3></div>
+</div>
+
+<br>    
+<!-- Table of Contents -->
+<div class="header">Table of Contents</div>
+<div class="table-of-contents">
+    <div class="entry">
+        <span class="page-number">2</span>
+        <span class="topic">Meet the Team</span>
+      </div>
+      
+       
+  <div class="entry">
+    <span class="page-number">3</span>
+    <span class="topic">Project Description</span>
+  </div>
+  <div class="entry">
+    <span class="page-number">4</span>
+    <span class="topic">Data Analysis</span>
+  </div>
+  
+  <div class="entry">
+    <span class="page-number">1</span>
+    <span class="topic">Rigorous Feature Selection and Feature Engineering</span>
+  </div>
+  <div class="entry">
+    <span class="page-number">8</span>
+    <span class="topic">Exploratory Data Analysis</span>
+  </div>
+  <div class="entry">
+    <span class="page-number">9</span>
+    <span class="topic">Modeling</span>
+  </div>
+  <div class="entry">
+    <span class="page-number">14</span>
+    <span class="topic">Dashboard</span>
+  </div>
+  <div class="entry">
+    <span class="page-number">16</span>
+    <span class="topic">Conclusion</span>
+  </div>
+  <div class="entry">
+    <span class="page-number">16</span>
+    <span class="topic">Future Work</span>
+  </div>
+  <div class="entry">
+    <span class="page-number">17</span>
+    <span class="topic">References</span>
+  </div>
+ </div>
+ <br>
+ <!-- Report Pages -->
+ <div class="header">MEET THE TEAM!</div>
+<div class="report-page">
+    <div class="photos">
+        <div class="row">
+          <div class="col">
+            <div class="image-holder">
+              <img src="#" alt="Image 1">
+            </div>
+            <div class="image-holder">
+              <img src="#" alt="Image 2">
+            </div>
+            <div class="image-holder">
+              <img src="#" alt="Image 3">
+            </div>
+          </div>
+          <div class="col">
+            <div class="image-holder">
+              <img src="#" alt="Image 4">
+            </div>
+            <div class="image-holder">
+              <img src="#" alt="Image 5">
+            </div>
+            <div class="image-holder">
+              <img src="#" alt="Image 6">
+            </div>
+          </div>
+        </div>
+      </div>
+  <div class="header">PROJECT DESCRIPTION</div>
+  <div class="content">
+   <h2>PROJECT OVERVIEW</h2>
+   <p>The purpose of this project is to investigate wage inequities and the lack of BIPOC (Black Indigenous People of Color) representation within the technology field. Based on our findings, the disparities in the data science industry are statistically significant. BIPOC employees within this career sector show significantly lower representation, salary, and attainment of senior leadership roles in comparison to their peers of different races. In addition to excluding potentially fresh talent, the lack of diversity within the tech industry can also leave current minority technology professionals feeling marginalized and less motivated to contribute to their highest capacity within their respective departments.
+
+</p>
+<div>
+<ul>
+<h2>GOALS</h2>
+    <li>Expand access to STEM-related educational opportunities within the BIPOC community</li>
+    <li>Promote diversity and inclusion efforts to reduce bias and discrimination in hiring practices</li>
+    <li>Leverage social media to share funded opportunities for training and internships geared towards increasing minority representation within tech workspaces
+    </li>
+    <li>Increase access to career coaching, salary negotiation techniques, and technical interview preparation for minority job-seekers
+    </li>
+    <li>Encourage employer transparency in regard to salary range when posting new employment opportunities to reduce salary underbidding</li>
+
+<h2>IMPACT</h2>
+    <li>Improve the number of BIPOC employees in terms of representation, salary, and attainment of senior leadership roles</li>
+    <li>Increase sense of belonging in diverse talent and current technology professionals to feel less marginalized, and more motivated to contribute.
+    </li>
+    <li>Commitment from all levels of the organization. 
+    </li>
+   
+   <h2>TECHNICAL FRAMEWORK</h2>
+    <li>Scoping</li>
+    <li>Data sourcing </li>
+    <li>Data wrangling</li>
+    <li>Exploratory Data Analysis</li>
+    <li>Front-End Design and Data Visualization</li>
+   
+   <h2>TOOLBOX</h2>
+   <li>Python</li>
+   <li>Jupyter Notebok </li>
+   <li>Tableau</li>
+   <li>Google Slides</li>
+   <li>Slack</li>
+   <li>Excel</li>
+  </ul>
+</div>
+  </div>
+<div class="header">DATA ANALYSIS</div>
+<h2>DATASETS</h2>
+<p>The team identified two data sources relevant to job role, median salary, and employee demographics. We evaluated the strengths and weaknesses of each data set,
+    determined the relevant factors, and performed a preliminary analysis to determine if salary inequalities were apparent.  Data sourcing proved to be challenging, and the group found that data specific to “data scientist” was quite limited relative to what we desired. For this reason, the initial project focus was amended to include additional technology roles such as software engineer and business analyst.
+    </p>
+<h2>DATA WRANGLING</h2>
+<p>The team's primary goal during the data wrangling process was to ensure that data from various sources could be merged and that the information relevant to the relationship between race and salary expectation could be visualized. The created database would then serve as input for the dashboard and end-user tool.
+</p>
+<h2>VALIDATION</h2>
+<ul>
+   <li>Data points with null values were
+    dropped
+    </li>
+   <li>Data points with salaries below $50,000 per annum were eliminated
+</li>
+   <li>Columns were renamed for clarity and uniformity
+</li>
+   <li>Formatted columns containing address, social media & website URLs</li>
+   <li>Creating a column which specifies source of a particular dataset after merge</li>
+   <li>Applied one hot encoding to product list column, to indicate availability of product for each vendor
+</li>
+<li>Utilized python's validator library to ensure all website URLs are valid
+</li>
+  </ul>
+  <div class="header">RIGOROUS FEATURE SELECTION AND FEATURE ENGINEERING</div>
+<div class="page">
+Some Content
+</div>
+<div class="header">EXPLORATORY DATA ANALYSIS</div>
+<div class="page">
+ More Content
+</div>
+<div class="header">MODELING</div>
+<div class="page">
+  Even more content
+</div>
+<div class="header">DASHBOARD</div>
+<div class="page">
+  Even more content
+</div>
+<div class="header">CONCLUSION</div>
+<div class="page">
+  Even more content
+</div>
+<div class="header">FUTURE WORK</div>
+<div class="page">
+  Even more content
+</div>
+<div class="header">REFERENCES</div>
+<div class="page">
+  Even more content
+</div>
+</div>
+</body>
+
+</html>
